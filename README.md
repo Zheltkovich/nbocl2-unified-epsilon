@@ -10,13 +10,15 @@ calibration to HSE06+LOPTICS, and the memristor/LED device context".
   - `ml_eps_spectral_scissor_calibrate.py` — Phase A/C spectral calibration of Tr ε(ω) (schemes I–III, Godby scissors);
   - `ml_dgl_bootstrap.py` — DGL import bootstrap for Windows / torch 2.7 (frozen ALIGNN inference);
   - `ml_gnn_pipeline_viz.py` — pedagogical visualization of the INPUT | graph | OUTPUT pipeline.
-- `data/` — reference and derived datasets:
-  - `NbOI2_HSE06_dielectric_tensor_energy.csv` — authors' VASP HSE06+LOPTICS reference spectra for bulk NbOI2 (εxx, εyy, εzz vs energy);
-  - `dielectric_compare` outputs (CSV/JSON) — side-by-side Mortazavi HSE06+RPA vs MACE Unified ε exports and ALIGNN Eg results.
+- `data/` — ML inference results and calibration datasets:
+  - ALIGNN band-gap outputs and GNNOpt spectra for the NbOX2 series;
+  - MACEField static polarizability results for the films;
+  - `dielectric_compare` outputs (CSV/JSON) — side-by-side Mortazavi HSE06+RPA vs MACE Unified ε exports;
+  - reference VASP HSE06+LOPTICS spectra for bulk NbOI2 (2000 points, 0–78.8 eV) are available from the authors upon request and will be added to this deposit together with the acceptance of the associated VASP dataset.
 - `figures/` — manuscript figures (English labels).
 
 ## Provenance
-- Reference DFT: authors' own VASP HSE06+LOPTICS run on bulk nboi2.xyz (16 atoms, C2), ~49,850 core·h (unpublished; this deposit).
+- Reference DFT: authors' own VASP HSE06+LOPTICS run on bulk nboi2.xyz (16 atoms, C2), ~49,850 core·h (unpublished); reference spectra are available from the authors upon request (to be deposited separately).
 - Literature anchors: Mortazavi et al., Nanotechnology 33, 275701 (2022), doi:10.1088/1361-6528/ac622f;
   Li et al., ACS Nano (2025), doi:10.1021/acsnano.5c07236.
 - ML models (frozen inference, no retraining): MACEField (arXiv:2508.17870), ALIGNN and GNNOpt
