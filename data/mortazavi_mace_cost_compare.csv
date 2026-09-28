@@ -1,0 +1,3 @@
+Этап,"Wall time, ч",Core·h,Метод,× vs docx
+VASP HSE06+LOPTICS (docx bulk NbOI₂),947.18,49850.0,DFT,1.0
+MACEField α (этот GPU-прогон),0.0016031669722158565,,MACE,590818.0

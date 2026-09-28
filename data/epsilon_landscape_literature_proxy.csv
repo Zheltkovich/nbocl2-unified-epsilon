@@ -1,0 +1,7 @@
+Источник,Геометрия,ε_xx,ε_yy,ε_zz,Tr(ε),ε(ω) / спектр,"Wall, ч",Core·h,Тип данных,Близость к плёнке
+Mortazavi 2022 (2L),freestanding 2L NbOX₂,4.74,3.44,3.5,11.68,SI: Re/Im ε(ω) графики,,,HSE06 + RPA static ε (Table 1),средняя — 2L screening
+Mortazavi 2022 (bulk),freestanding bulk NbOX₂,7.56,5.41,5.62,18.59,SI: Re/Im ε(ω) графики,,,HSE06 + RPA static ε (Table 1),bulk — thick limit
+Docx VASP CSV (bulk HSE06) · static Re ε(0),"bulk 3D — ε_xx→b, ε_yy→a, ε_zz→c",7.01,5.07,5.49,17.58,"Re/Im ε(ω), 2000 pts, 0–78.8 eV",947.18,49850.0,HSE06 LOPTICS macroscopic ε tensor (CSV),bulk — ваш docx-run + CSV
+Docx VASP CSV (bulk HSE06) · Re ε @ 610 nm (2.033 eV),"bulk 3D — ε_xx→b, ε_yy→a, ε_zz→c",10.22,6.7,7.17,24.09,Re ε(ω) @ 2.033 eV (610 nm LED proxy),947.18,49850.0,HSE06 LOPTICS macroscopic ε tensor (CSV),bulk — ваш docx-run + CSV
+MACEField Unified ε (i2_film),ваша GPT extxyz (thick periodic),4.56,6.17,7.86,18.59,—,0.0,,ML proxy: Tr Mortazavi + α MACE,прямо — текущая плёнка
+MACEField CM ε (i2_film),"ваша ячейка, ε≈1+4πα/V",1.01,1.01,1.01,3.04,—,,,Clausius–Mossotti (грубо),прямо — текущая плёнка

@@ -1,0 +1,27 @@
+Структура,Атомов,Параметр,Гибрид / ML,ML wall,DFT (классика),"DFT wall, ч",DFT core·h,× docx bulk,× vs DFT
+ItoCl Cl₂.₀ (GPT_38 плёнка),240,"α_ij, P, BEC, V",MACEField mp-dielectric (GPU),12.0 с (замер),HSE06 + RPA static ε (DFT),2792.4,146963,284681.0,839274.0
+ItoCl Cl₂.₀ (GPT_38 плёнка),240,"Unified ε, cos(f)",MACEField α + Mortazavi Tr(ε) (lit.),12.0 с (замер),HSE06 + RPA static ε + постобработка,2792.4,146963,284681.0,839274.0
+ItoCl Cl₂.₀ (GPT_38 плёнка),240,ε CM (Clausius–Mossotti),MACEField α + V (extxyz),12.0 с (замер),DFPT / RPA α → CM,2792.4,146963,284681.0,839274.0
+ItoCl Cl₂.₀ (GPT_38 плёнка),240,Eg (ALIGNN A / A′),ALIGNN JARVIS inference (GPU+CPU),1.6 с (замер),HSE06 зоны / optical gap,1239.9,69432,2072930.0,2713497.0
+ItoCl Cl₂.₀ (GPT_38 плёнка),240,Mortazavi static RPA ε (lit.),Литература Table 1 (0 s),0 с (литература),HSE06 + RPA (авторы Mortazavi),2792.4,146963,,
+ItoCl Cl₂.₀ (GPT_38 плёнка),240,Полный цикл HSE06+LOPTICS,GNNOpt + scissor + MACE α (прокси),12.0 с (замер),VASP docx workflow,8726.2,459261,284681.0,2622732.0
+ItoCl Cl₁.₀I₁.₀ (GPT_38),240,"α_ij, P, BEC, V",MACEField mp-dielectric (GPU),7.5 с (замер),HSE06 + RPA static ε (DFT),2792.4,146963,456689.0,1346374.0
+ItoCl Cl₁.₀I₁.₀ (GPT_38),240,"Unified ε, cos(f)",MACEField α + Mortazavi Tr(ε) (lit.),7.5 с (замер),HSE06 + RPA static ε + постобработка,2792.4,146963,456689.0,1346374.0
+ItoCl Cl₁.₀I₁.₀ (GPT_38),240,ε CM (Clausius–Mossotti),MACEField α + V (extxyz),7.5 с (замер),DFPT / RPA α → CM,2792.4,146963,456689.0,1346374.0
+ItoCl Cl₁.₀I₁.₀ (GPT_38),240,Eg (ALIGNN A / A′),ALIGNN JARVIS inference (GPU+CPU),1.4 с (замер),HSE06 зоны / optical gap,1239.9,69432,2521822.0,3301104.0
+ItoCl Cl₁.₀I₁.₀ (GPT_38),240,Mortazavi static RPA ε (lit.),Литература Table 1 (0 s),0 с (литература),HSE06 + RPA (авторы Mortazavi),2792.4,146963,,
+ItoCl Cl₁.₀I₁.₀ (GPT_38),240,Полный цикл HSE06+LOPTICS,GNNOpt + scissor + MACE α (прокси),7.5 с (замер),VASP docx workflow,8726.2,459261,456689.0,4207418.0
+ItoCl I₂.₀ (GPT_38),240,"α_ij, P, BEC, V",MACEField mp-dielectric (GPU),5.8 с (замер),HSE06 + RPA static ε (DFT),2792.4,146963,590818.0,1741801.0
+ItoCl I₂.₀ (GPT_38),240,"Unified ε, cos(f)",MACEField α + Mortazavi Tr(ε) (lit.),5.8 с (замер),HSE06 + RPA static ε + постобработка,2792.4,146963,590818.0,1741801.0
+ItoCl I₂.₀ (GPT_38),240,ε CM (Clausius–Mossotti),MACEField α + V (extxyz),5.8 с (замер),DFPT / RPA α → CM,2792.4,146963,590818.0,1741801.0
+ItoCl I₂.₀ (GPT_38),240,Eg (ALIGNN A / A′),ALIGNN JARVIS inference (GPU+CPU),1.6 с (замер),HSE06 зоны / optical gap,1239.9,69432,2119406.0,2774335.0
+ItoCl I₂.₀ (GPT_38),240,Mortazavi static RPA ε (lit.),Литература Table 1 (0 s),0 с (литература),HSE06 + RPA (авторы Mortazavi),2792.4,146963,,
+ItoCl I₂.₀ (GPT_38),240,Полный цикл HSE06+LOPTICS,GNNOpt + scissor + MACE α (прокси),5.8 с (замер),VASP docx workflow,8726.2,459261,590818.0,5443129.0
+"bulk NbOI₂ docx (nboi2.xyz, 16 at., C2)",16,"α_ij, P, BEC, V",MACEField mp-dielectric (GPU),7.4 с (замер),HSE06 + RPA static ε (DFT),303.1,15952,460808.0,147459.0
+"bulk NbOI₂ docx (nboi2.xyz, 16 at., C2)",16,"Unified ε, cos(f)",MACEField α + Mortazavi Tr(ε) (lit.),7.4 с (замер),HSE06 + RPA static ε + постобработка,303.1,15952,460808.0,147459.0
+"bulk NbOI₂ docx (nboi2.xyz, 16 at., C2)",16,ε CM (Clausius–Mossotti),MACEField α + V (extxyz),7.4 с (замер),DFPT / RPA α → CM,303.1,15952,460808.0,147459.0
+"bulk NbOI₂ docx (nboi2.xyz, 16 at., C2)",16,Eg (ALIGNN A / A′),ALIGNN JARVIS inference (GPU+CPU),0.9 с (замер),HSE06 зоны / optical gap,134.6,7536,3699594.0,525659.0
+"bulk NbOI₂ docx (nboi2.xyz, 16 at., C2)",16,"Tr(Re ε(ω)), Im ε(ω)",GNNOpt spectrum (bulk ML),1.7 мин (замер),HSE06 + LOPTICS ε(ω),947.2,49850,33927.0,33927.0
+"bulk NbOI₂ docx (nboi2.xyz, 16 at., C2)",16,ε(ω) scissor (JARVIS / CSV),GNNOpt + offline калибровка,1.7 мин (замер),HSE06 + LOPTICS (тот же спектр),947.2,49850,33265.0,33265.0
+"bulk NbOI₂ docx (nboi2.xyz, 16 at., C2)",16,Mortazavi static RPA ε (lit.),Литература Table 1 (0 s),0 с (литература),HSE06 + RPA (авторы Mortazavi),303.1,15952,,
+"bulk NbOI₂ docx (nboi2.xyz, 16 at., C2)",16,Полный цикл HSE06+LOPTICS,GNNOpt + scissor + MACE α (прокси),1.8 мин (замер),VASP docx workflow,947.2,49850,31026.0,31026.0

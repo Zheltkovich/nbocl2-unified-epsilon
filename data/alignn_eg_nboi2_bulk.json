@@ -1,0 +1,13 @@
+{
+  "structure": "C:\\Users\\Andrei\\Notebooks\\Atomic structure of a MEMRISTOR\\nboi2.xyz",
+  "n_atoms": 16,
+  "model": "jv_optb88vdw_bandgap_alignn",
+  "model_key": "optb88",
+  "method": "ALIGNN (JARVIS pretrained)",
+  "theory_level": "OptB88vdW (PBE-class DFT labels \u2014 not HSE06)",
+  "Eg_eV_ML": 0.7365053296089172,
+  "wall_s": 1.04793979995884,
+  "reference_HSE06_docx_eV": 1.76,
+  "note": "Pure ML inference on geometry. Gap vs HSE06 ~1.76 eV = different XC in training, not a literature plug-in.",
+  "saved_json": "C:\\Users\\Andrei\\Notebooks\\Atomic structure of a MEMRISTOR\\generated_films_GPT_38\\ItoCl\\dielectric_compare\\alignn_eg_nboi2.json"
+}

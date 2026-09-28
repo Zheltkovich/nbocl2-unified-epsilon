@@ -1,0 +1,8 @@
+jid,formula,spg,nat,typ,Eg_opt_JARVIS,Eg_mbj_JARVIS,delta_mbj_minus_opt,slme_pct,calib_tier,in_calibration,reference
+JVASP-26367,NbI2O,C2,8,bulk,0.681,0.846,0.165,27.44,Nb/Ta/V oxyhalide (JARVIS paired DFT),True,https://www.ctcms.nist.gov/~knc6/static/JARVIS-DFT/JVASP-26367
+JVASP-29372,NbI2O,C2,8,bulk,0.681,0.848,0.167,27.5,Nb/Ta/V oxyhalide (JARVIS paired DFT),True,https://www.ctcms.nist.gov/~knc6/static/JARVIS-DFT/JVASP-29372
+JVASP-28028,NbIO2,P2_1/m,8,SingleLayer,0.873,0.917,0.044,30.59,Nb/Ta/V oxyhalide (JARVIS paired DFT),True,https://www.ctcms.nist.gov/~knc6/static/JARVIS-DFT/JVASP-28028
+JVASP-25591,NbIO2,Pnma,16,bulk,0.799,1.302,0.503,33.44,Nb/Ta/V oxyhalide (JARVIS paired DFT),True,https://www.ctcms.nist.gov/~knc6/static/JARVIS-DFT/JVASP-25591
+JVASP-29443,NbIO2,Pnma,16,bulk,0.798,1.311,0.513,33.59,Nb/Ta/V oxyhalide (JARVIS paired DFT),True,https://www.ctcms.nist.gov/~knc6/static/JARVIS-DFT/JVASP-29443
+JVASP-25875,NbCl3O,P-42_1m,20,bulk,2.664,3.156,0.492,3.11,Nb/Ta/V oxyhalide (JARVIS paired DFT),True,https://www.ctcms.nist.gov/~knc6/static/JARVIS-DFT/JVASP-25875
+JVASP-5392,NbCl3O,P4_2/mnm,20,bulk,2.308,2.694,0.386,9.0,Nb/Ta/V oxyhalide (JARVIS paired DFT),True,https://www.ctcms.nist.gov/~knc6/static/JARVIS-DFT/JVASP-5392

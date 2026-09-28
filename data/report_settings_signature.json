@@ -1,0 +1,15 @@
+{
+  "fingerprint": "a5c32103b646db6a",
+  "signature": {
+    "lang": "ru",
+    "material": "NbOI2",
+    "layer": "bulk",
+    "mace_row_key": "i2_film",
+    "mace_head": "mp-dielectric",
+    "compare_mode": "unified",
+    "lit_source": "both",
+    "tariff_kwh": 0.1,
+    "mace_run_fingerprint": "7cd0e1052ce8a070"
+  },
+  "saved_at": "2026-08-21T00:00:53"
+}

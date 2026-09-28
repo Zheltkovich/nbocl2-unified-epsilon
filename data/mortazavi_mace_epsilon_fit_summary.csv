@@ -1,0 +1,9 @@
+Метрика,Значение,Пояснение
+cos(f) vs Mortazavi RPA,0.9389,1 = та же «картина» f_xx:f_yy:f_zz; <0.95 — только qualitative proxy
+max|Δf| vs Mortazavi,0.1614,макс. |f_MACE−f_Mortazavi| по осям; >0.08 — осторожные формулировки
+cos(f) MACE↔CSV (HSE06 static),0.9455,"форма f_i vs bulk LOPTICS Re ε(0); справочно, не якорь Unified"
+max|Δf| vs CSV,0.1537,"макс. |f_MACE−f_CSV| по осям; часто ниже, чем vs Mortazavi"
+R² (ε),-4.1925,Mortazavi NbOI2 bulk vs MACE (unified ε) (3 оси). Может быть сильно <0 при совпадении Tr(ε) — не для статьи; см. cos(f)
+MAE |Δε|,2.0006,"среднее |ε_MACE−ε_DFT| по 3 осям (безразмерная ε); диагностика, не для статьи — см. cos(f)"
+Референс docx,,bulk NbOI₂ HSE06+LOPTICS — CSV ε(ω) если есть; static ε ≠ Mortazavi RPA
+Режим,unified,Unified: Tr(ε) DFT; анизотропия α MACE. Не RPA Mortazavi.

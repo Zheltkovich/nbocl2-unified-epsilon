@@ -1,0 +1,235 @@
+{
+  "calibration_mode": "Spectral \u03b5(\u03c9) \u2014 three Supplementary schemes; HSE06 CSV validation only in Phase C",
+  "min_calibration_n": 3,
+  "n_calibration": 7,
+  "schemes": {
+    "I_jarvis_class": {
+      "id": "I_jarvis_class",
+      "label": "JARVIS class (most honest for transfer)",
+      "formula": "Tr_trend(\u03c9) = Tr_GNNOpt(\u03c9) + \u27e8\u0394Tr\u27e9_JARVIS",
+      "delta_definition": "\u27e8\u0394Tr\u27e9 = mean(Tr_mBJ(0) \u2212 Tr_Opt(0)) on paired JARVIS cells",
+      "n_calibration": 7,
+      "n_nbi2o_only": 2,
+      "mean_delta_tr_eV": -2.9752,
+      "mean_delta_tr_nbi2o_only_eV": -3.5729,
+      "stdev_delta_eV": 1.8123,
+      "fit_includes_mortazavi_csv": false,
+      "tr_re_0_calibrated": 3.5724,
+      "validation_0_15eV": {
+        "label_ref": "HSE06 LOPTICS CSV",
+        "label_ml": "calibrated GNNOpt",
+        "n_ref": 2000,
+        "n_ml": 251,
+        "n_common": 500,
+        "energy_eV_range": [
+          0.0,
+          15.0
+        ],
+        "MAE": 7.271232695605277,
+        "RMSE": 8.110495107497776,
+        "R2": 0.1302025093469913,
+        "Pearson_r": 0.9031761747900651,
+        "relative_MAE": 0.9740464266906106,
+        "note": "Different native point counts OK \u2014 both curves interpolated to a common grid (500 pts, 0.0\u201315.0 eV) before metrics."
+      }
+    },
+    "II_affine_csv": {
+      "id": "II_affine_csv",
+      "label": "Affine anchor on nboi2.xyz (most control points)",
+      "formula": "Tr_trend(\u03c9) \u2248 a\u00b7Tr_GNNOpt(\u03c9) + b  (fit 0\u20135 eV vs docx CSV)",
+      "n_control_points": 500,
+      "fit_includes_mortazavi_csv": false,
+      "fit_includes_hse06_csv": true,
+      "a": 0.8511408750595407,
+      "b": 7.538598358465757,
+      "mae_before_eV": 6.1928,
+      "mae_after_eV": 3.2766,
+      "e_max_fit_eV": 5.0,
+      "n_grid": 500,
+      "tr_re_0_calibrated": 13.1116,
+      "validation_0_15eV": {
+        "label_ref": "HSE06 LOPTICS CSV",
+        "label_ml": "calibrated GNNOpt",
+        "n_ref": 2000,
+        "n_ml": 251,
+        "n_common": 500,
+        "energy_eV_range": [
+          0.0,
+          15.0
+        ],
+        "MAE": 4.064367751421772,
+        "RMSE": 4.916954635519526,
+        "R2": 0.6803197398276283,
+        "Pearson_r": 0.9031761747900655,
+        "relative_MAE": 0.5444582852398152,
+        "note": "Different native point counts OK \u2014 both curves interpolated to a common grid (500 pts, 0.0\u201315.0 eV) before metrics."
+      },
+      "validation_raw_gnnopt": {
+        "label_ref": "HSE06 LOPTICS CSV",
+        "label_ml": "calibrated GNNOpt",
+        "n_ref": 2000,
+        "n_ml": 251,
+        "n_common": 500,
+        "energy_eV_range": [
+          0.0,
+          15.0
+        ],
+        "MAE": 4.443411673550532,
+        "RMSE": 5.641219144257759,
+        "R2": 0.5792061738601222,
+        "Pearson_r": 0.9031761747900652,
+        "relative_MAE": 0.5952345969553599,
+        "note": "Different native point counts OK \u2014 both curves interpolated to a common grid (500 pts, 0.0\u201315.0 eV) before metrics."
+      }
+    },
+    "III_static_scissor": {
+      "id": "III_static_scissor",
+      "label": "Static scissor (simplest)",
+      "formula": "Tr_trend(\u03c9) = Tr_GNNOpt(\u03c9) + \u0394_static",
+      "delta_definition": "\u0394_static = Tr_CSV(0) \u2212 Tr_GNNOpt(0)",
+      "fit_includes_hse06_csv": true,
+      "kk_warning": "Additive Re-only shift breaks strict Kramers\u2013Kronig if Im not shifted consistently",
+      "delta_static_eV": 11.0291,
+      "csv_tr_re_0": 17.5767,
+      "gnnopt_tr_re_0": 6.5476,
+      "tr_re_0_calibrated": 17.5767,
+      "validation_0_15eV": {
+        "label_ref": "HSE06 LOPTICS CSV",
+        "label_ml": "calibrated GNNOpt",
+        "n_ref": 2000,
+        "n_ml": 251,
+        "n_common": 500,
+        "energy_eV_range": [
+          0.0,
+          15.0
+        ],
+        "MAE": 7.026892466502579,
+        "RMSE": 7.771766254289405,
+        "R2": 0.2013382647092129,
+        "Pearson_r": 0.9031761747900653,
+        "relative_MAE": 0.941314875244307,
+        "note": "Different native point counts OK \u2014 both curves interpolated to a common grid (500 pts, 0.0\u201315.0 eV) before metrics."
+      }
+    }
+  },
+  "recommended_publication": {
+    "main_text": "HSE06 LOPTICS CSV / Mortazavi RPA static \u03b5 \u2014 DFT anchors",
+    "supplementary_ranking": "Scheme I (JARVIS \u27e8\u0394Tr\u27e9) for cross-structure GNNOpt screening",
+    "supplementary_bulk_level": "Scheme II (affine 0\u20135 eV) on same nboi2.xyz cell",
+    "quick_check": "Scheme III (static \u0394) \u2014 report with KK caveat",
+    "combined": "I + II: class transfer then affine bulk anchor; III as sanity check vs CSV \u03c9=0"
+  },
+  "calibration_fit_rows": [
+    {
+      "jid": "JVASP-26367",
+      "formula": "NbI2O",
+      "typ": "bulk",
+      "Tr_eps_opt_JARVIS": 27.7535,
+      "Tr_eps_mbj_JARVIS": 24.2101,
+      "delta_tr_mbj_minus_opt": -3.5434
+    },
+    {
+      "jid": "JVASP-29372",
+      "formula": "NbI2O",
+      "typ": "bulk",
+      "Tr_eps_opt_JARVIS": 27.7864,
+      "Tr_eps_mbj_JARVIS": 24.184,
+      "delta_tr_mbj_minus_opt": -3.6024
+    },
+    {
+      "jid": "JVASP-28028",
+      "formula": "NbIO2",
+      "typ": "SingleLayer",
+      "Tr_eps_opt_JARVIS": 10.9614,
+      "Tr_eps_mbj_JARVIS": 10.9492,
+      "delta_tr_mbj_minus_opt": -0.0122
+    },
+    {
+      "jid": "JVASP-25591",
+      "formula": "NbIO2",
+      "typ": "bulk",
+      "Tr_eps_opt_JARVIS": 24.4747,
+      "Tr_eps_mbj_JARVIS": 19.5054,
+      "delta_tr_mbj_minus_opt": -4.9693
+    },
+    {
+      "jid": "JVASP-29443",
+      "formula": "NbIO2",
+      "typ": "bulk",
+      "Tr_eps_opt_JARVIS": 24.4745,
+      "Tr_eps_mbj_JARVIS": 19.5393,
+      "delta_tr_mbj_minus_opt": -4.9352
+    },
+    {
+      "jid": "JVASP-25875",
+      "formula": "NbCl3O",
+      "typ": "bulk",
+      "Tr_eps_opt_JARVIS": 16.2046,
+      "Tr_eps_mbj_JARVIS": 14.3528,
+      "delta_tr_mbj_minus_opt": -1.8518
+    },
+    {
+      "jid": "JVASP-5392",
+      "formula": "NbCl3O",
+      "typ": "bulk",
+      "Tr_eps_opt_JARVIS": 17.4511,
+      "Tr_eps_mbj_JARVIS": 15.5389,
+      "delta_tr_mbj_minus_opt": -1.9122
+    }
+  ],
+  "validation_mortazavi": [
+    {
+      "compound": "NbOI2",
+      "jid": "JVASP-26367",
+      "formula_jarvis": "NbI2O",
+      "Mortazavi_RPA_Tr_eps": 18.59,
+      "JARVIS_mBJ_Tr_eps": 24.2101,
+      "implied_Mortazavi_minus_mBJ": -5.62,
+      "note": "Validation only \u2014 JARVIS cell \u2260 Mortazavi HSE06+RPA geometry"
+    },
+    {
+      "compound": "NbOI2",
+      "jid": "JVASP-29372",
+      "formula_jarvis": "NbI2O",
+      "Mortazavi_RPA_Tr_eps": 18.59,
+      "JARVIS_mBJ_Tr_eps": 24.184,
+      "implied_Mortazavi_minus_mBJ": -5.594,
+      "note": "Validation only \u2014 JARVIS cell \u2260 Mortazavi HSE06+RPA geometry"
+    }
+  ],
+  "manuscript_export": {
+    "MANUSCRIPT_PICKUP": true,
+    "supplementary_table_id": "Supplementary Table S_eps_JARVIS_fit",
+    "use_key": "calibration_fit_rows",
+    "not_key": "validation_mortazavi",
+    "csv_path": "C:\\Users\\Andrei\\Notebooks\\Atomic structure of a MEMRISTOR\\generated_films_GPT_38\\ItoCl\\dielectric_compare\\jarvis_eps_calibration.csv",
+    "note_ru": "\u0412 \u0441\u0442\u0430\u0442\u044c\u044e \u2014 \u0432\u0441\u0435 N \u043f\u0430\u0440 \u0444\u0430\u0437\u044b A \u0438\u0437 calibration_fit_rows (\u0438\u043b\u0438 CSV). validation_mortazavi \u2014 \u0442\u043e\u043b\u044c\u043a\u043e \u0444\u0430\u0437\u0430 C (2 \u043f\u0440\u0438\u043c\u0435\u0440\u0430 vs Mortazavi RPA).",
+    "note_en": "Paper/Supplementary: export all N Phase-A rows from calibration_fit_rows (or CSV). validation_mortazavi is Phase-C sample only (Mortazavi RPA check)."
+  },
+  "gnnopt_json": "C:\\Users\\Andrei\\Notebooks\\Atomic structure of a MEMRISTOR\\generated_films_GPT_38\\ItoCl\\dielectric_compare\\gnnopt_spectrum_nboi2_bulk.json",
+  "paper_blurb_en": "GNNOpt reproduces Tr(Re \u03b5(\u03c9)) shape (r\u22480.9) but not HSE06 LOPTICS level (\u03c9=0 offset ~63%). Spectral scissor uses JARVIS paired static \u03b5 (Scheme I) and/or affine fit to docx CSV on nboi2.xyz (Scheme II) \u2014 Supplementary only; main text keeps HSE06/Mortazavi anchors.",
+  "paper_blurb_ru": "GNNOpt \u0432\u043e\u0441\u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0438\u0442 \u0444\u043e\u0440\u043c\u0443 Tr(Re \u03b5(\u03c9)) (r\u22480,9), \u043d\u043e \u043d\u0435 \u0443\u0440\u043e\u0432\u0435\u043d\u044c HSE06 LOPTICS (\u043f\u0440\u043e\u043c\u0430\u0445 \u043d\u0430 \u03c9=0 ~63%). \u0421\u043f\u0435\u043a\u0442\u0440\u0430\u043b\u044c\u043d\u044b\u0439 scissor: JARVIS \u043f\u0430\u0440\u044b static \u03b5 (\u0441\u0445\u0435\u043c\u0430 I) \u0438/\u0438\u043b\u0438 affine \u043a docx CSV \u043d\u0430 nboi2.xyz (\u0441\u0445\u0435\u043c\u0430 II) \u2014 \u0442\u043e\u043b\u044c\u043a\u043e Supplementary; \u0432 \u043e\u0441\u043d\u043e\u0432\u043d\u043e\u043c \u0442\u0435\u043a\u0441\u0442\u0435 \u2014 \u044f\u043a\u043e\u0440\u044f HSE06/Mortazavi.",
+  "developer_rationale": {
+    "GNNOpt_Hung_2024": {
+      "doi": "10.1002/adma.202409175",
+      "quote_en": "ML models trained on DFT at the independent-particle approximation (IPA) level enable rapid screening of optical properties across large chemical spaces.",
+      "why_underestimate_ok": "Authors target high-throughput ranking (SLME, absorption onset), not hybrid-functional LOPTICS on every structure."
+    },
+    "JARVIS_Choudhary_2020": {
+      "doi": "10.1038/s41524-020-00440-1",
+      "quote_en": "HSE06 remains too computationally expensive for high-throughput screening of thousands of materials; TB-mBJ balances cost and accuracy."
+    },
+    "scissor_VASP_1995": {
+      "doi": "10.1103/PhysRevB.51.17196",
+      "note": "Scissor operator shifts quasiparticle levels to match experiment/expensive DFT."
+    }
+  },
+  "widget_hints": {
+    "scheme_primary": "I",
+    "mean_delta_tr_eV": -2.975,
+    "affine_a": 0.851,
+    "affine_b": 7.54,
+    "delta_static_eV": 11.0291,
+    "n_calibration": 7
+  }
+}

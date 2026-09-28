@@ -1,0 +1,6 @@
+quantity,Mortazavi_DFT,MACE (unified ε),note
+Eg (eV),1.6,— (нет; см. проект ~1.76 eV HSE06),Eg: Mortazavi HSE06; MACE-MP/L1/Field — нет головы Eg
+ε_xx,7.56,4.559140251326992,"Unified ε: Tr из Mortazavi, доли осей из α_xx:yy:zz MACE"
+ε_yy,5.41,6.174400599361813,"Unified ε: Tr из Mortazavi, доли осей из α_xx:yy:zz MACE"
+ε_zz,5.62,7.856459149311195,"Unified ε: Tr из Mortazavi, доли осей из α_xx:yy:zz MACE"
+Tr(ε),18.59,18.59,Одинаковые ед. в режиме Unified

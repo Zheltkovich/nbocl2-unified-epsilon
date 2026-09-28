@@ -1,0 +1,12 @@
+{
+  "structure": "C:\\Users\\Andrei\\Notebooks\\Atomic structure of a MEMRISTOR\\generated_films_GPT_38\\ItoCl\\ItoCl_Nb_O_Cl2.0_I0.0.extxyz",
+  "n_atoms": 240,
+  "model": "jv_optb88vdw_bandgap_alignn",
+  "model_key": "optb88",
+  "method": "ALIGNN (JARVIS pretrained)",
+  "theory_level": "OptB88vdW (PBE-class DFT labels \u2014 not HSE06)",
+  "Eg_eV_ML": 1.6284314393997192,
+  "wall_s": 1.7807493000291288,
+  "reference_HSE06_docx_eV": 1.76,
+  "note": "Pure ML inference on geometry. Gap vs HSE06 ~1.76 eV = different XC in training, not a literature plug-in."
+}

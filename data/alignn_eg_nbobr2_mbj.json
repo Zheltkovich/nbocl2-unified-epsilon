@@ -1,0 +1,12 @@
+{
+  "structure": "C:\\Users\\Andrei\\Notebooks\\Atomic structure of a MEMRISTOR\\nbobr2.xyz",
+  "n_atoms": 16,
+  "model": "jv_mbj_bandgap_alignn",
+  "model_key": "mbj",
+  "method": "ALIGNN (JARVIS pretrained)",
+  "theory_level": "TB-mBJ meta-GGA (JARVIS-DFT labels \u2014 not HSE06)",
+  "Eg_eV_ML": 1.522606611251831,
+  "wall_s": 1.3117589999455959,
+  "reference_HSE06_docx_eV": 1.76,
+  "note": "Pure ML inference on geometry. Gap vs HSE06 ~1.76 eV = different XC in training, not a literature plug-in."
+}

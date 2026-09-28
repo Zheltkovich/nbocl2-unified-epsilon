@@ -1,0 +1,181 @@
+{
+  "records": {
+    "mixed_film|mp-dielectric": {
+      "fingerprint": "f111009bd284c28a",
+      "signature": {
+        "structure_key": "mixed_film",
+        "head": "mp-dielectric",
+        "force_cuda": true,
+        "structure_path": "C:\\Users\\Andrei\\Notebooks\\Atomic structure of a MEMRISTOR\\generated_films_GPT_38\\ItoCl\\ItoCl_Nb_O_Cl1.0_I1.0.extxyz",
+        "structure_mtime_ns": 1776956641015590400,
+        "structure_size": 15519,
+        "model_path": "C:\\Users\\Andrei\\Notebooks\\Atomic structure of a MEMRISTOR\\models\\MACEField-MH-0-omat-dielectric.model",
+        "model_mtime_ns": 1775485266443898900,
+        "model_size": 36324459
+      },
+      "saved_at": "2026-08-20T16:29:51",
+      "record": {
+        "file": "ItoCl_Nb_O_Cl1.0_I1.0.extxyz",
+        "path": "C:\\Users\\Andrei\\Notebooks\\Atomic structure of a MEMRISTOR\\generated_films_GPT_38\\ItoCl\\ItoCl_Nb_O_Cl1.0_I1.0.extxyz",
+        "n_atoms": 240,
+        "volume_ang3": 6856.015395234513,
+        "head": "mp-dielectric",
+        "device": "cuda",
+        "wall_s": 7.466450299951248,
+        "energy_eV": -1451.952880859375,
+        "efield": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alpha_xx": 2.4585914611816406,
+        "alpha_yy": 5.210999488830566,
+        "alpha_zz": 4.949413776397705,
+        "alpha_trace": 12.619004726409912,
+        "alpha_tensor": [
+          [
+            2.4585914611816406,
+            -2.6316453016761443e-08,
+            -0.7947202324867249
+          ],
+          [
+            -3.585981289688789e-08,
+            5.210999488830566,
+            4.540133318187145e-07
+          ],
+          [
+            -0.7947201132774353,
+            4.559306034934707e-07,
+            4.949413776397705
+          ]
+        ],
+        "pol_x": -1.5051093704698815e-10,
+        "pol_y": -0.007361146155744791,
+        "pol_z": 4.377314510861652e-09,
+        "becs_l2_norm": 100.81610784632198,
+        "structure_key": "mixed_film",
+        "label_ru": "ItoCl Cl₁.₀I₁.₀ (GPT_38)",
+        "label_en": "ItoCl Cl₁.₀I₁.₀ (GPT_38)",
+        "proxy_for": "alloy proxy"
+      }
+    },
+    "i2_film|mp-dielectric": {
+      "fingerprint": "7cd0e1052ce8a070",
+      "signature": {
+        "structure_key": "i2_film",
+        "head": "mp-dielectric",
+        "force_cuda": true,
+        "structure_path": "C:\\Users\\Andrei\\Notebooks\\Atomic structure of a MEMRISTOR\\generated_films_GPT_38\\ItoCl\\ItoCl_Nb_O_Cl0.0_I2.0.extxyz",
+        "structure_mtime_ns": 1776956630720864900,
+        "structure_size": 15519,
+        "model_path": "C:\\Users\\Andrei\\Notebooks\\Atomic structure of a MEMRISTOR\\models\\MACEField-MH-0-omat-dielectric.model",
+        "model_mtime_ns": 1775485266443898900,
+        "model_size": 36324459
+      },
+      "saved_at": "2026-08-21T00:00:53",
+      "record": {
+        "file": "ItoCl_Nb_O_Cl0.0_I2.0.extxyz",
+        "path": "C:\\Users\\Andrei\\Notebooks\\Atomic structure of a MEMRISTOR\\generated_films_GPT_38\\ItoCl\\ItoCl_Nb_O_Cl0.0_I2.0.extxyz",
+        "n_atoms": 240,
+        "volume_ang3": 6856.015395234513,
+        "head": "mp-dielectric",
+        "device": "cuda",
+        "wall_s": 5.7714010999770835,
+        "energy_eV": -1375.90087890625,
+        "efield": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alpha_xx": 4.7288970947265625,
+        "alpha_yy": 6.404300689697266,
+        "alpha_zz": 8.1489896774292,
+        "alpha_trace": 19.282187461853027,
+        "alpha_tensor": [
+          [
+            4.7288970947265625,
+            2.652431021488155e-07,
+            -0.9897433519363403
+          ],
+          [
+            2.686459481537895e-07,
+            6.404300689697266,
+            6.583906042578747e-07
+          ],
+          [
+            -0.9897430539131165,
+            6.596534376512864e-07,
+            8.1489896774292
+          ]
+        ],
+        "pol_x": 3.77364051118434e-09,
+        "pol_y": -0.00846263486891985,
+        "pol_z": -9.971756753657246e-09,
+        "becs_l2_norm": 102.49411030622117,
+        "structure_key": "i2_film",
+        "label_ru": "ItoCl I₂.₀ (GPT_38)",
+        "label_en": "ItoCl I₂.₀ (GPT_38)",
+        "proxy_for": "NbOI2-like thick film (≠ Mortazavi 1L/bulk)"
+      }
+    },
+    "cl2_film|mp-dielectric": {
+      "fingerprint": "1764399b226918c8",
+      "signature": {
+        "structure_key": "cl2_film",
+        "head": "mp-dielectric",
+        "force_cuda": true,
+        "structure_path": "C:\\Users\\Andrei\\Notebooks\\Atomic structure of a MEMRISTOR\\generated_films_GPT_38\\ItoCl\\ItoCl_Nb_O_Cl2.0_I0.0.extxyz",
+        "structure_mtime_ns": 1776956656124055300,
+        "structure_size": 15519,
+        "model_path": "C:\\Users\\Andrei\\Notebooks\\Atomic structure of a MEMRISTOR\\models\\MACEField-MH-0-omat-dielectric.model",
+        "model_mtime_ns": 1775485266443898900,
+        "model_size": 36324459
+      },
+      "saved_at": "2026-08-20T16:29:51",
+      "record": {
+        "file": "ItoCl_Nb_O_Cl2.0_I0.0.extxyz",
+        "path": "C:\\Users\\Andrei\\Notebooks\\Atomic structure of a MEMRISTOR\\generated_films_GPT_38\\ItoCl\\ItoCl_Nb_O_Cl2.0_I0.0.extxyz",
+        "n_atoms": 240,
+        "volume_ang3": 6856.015395234513,
+        "head": "mp-dielectric",
+        "device": "cuda",
+        "wall_s": 11.977769099990837,
+        "energy_eV": -1516.2001953125,
+        "efield": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alpha_xx": 1.2476238012313843,
+        "alpha_yy": 3.866698741912842,
+        "alpha_zz": 3.6192104816436768,
+        "alpha_trace": 8.733533024787903,
+        "alpha_tensor": [
+          [
+            1.2476238012313843,
+            -3.6375541867528227e-07,
+            -0.6915622353553772
+          ],
+          [
+            -3.625609679147601e-07,
+            3.866698741912842,
+            -1.22025994642172e-06
+          ],
+          [
+            -0.6915622353553772,
+            -1.2212431101943366e-06,
+            3.6192104816436768
+          ]
+        ],
+        "pol_x": -1.7804032026447203e-08,
+        "pol_y": -0.009037363342940807,
+        "pol_z": -5.415731152424996e-08,
+        "becs_l2_norm": 96.95787843179073,
+        "structure_key": "cl2_film",
+        "label_ru": "ItoCl Cl₂.₀ (GPT_38 плёнка)",
+        "label_en": "ItoCl Cl₂.₀ (GPT_38 film)",
+        "proxy_for": "NbOCl2-like thick film (≠ Mortazavi 1L)"
+      }
+    }
+  }
+}

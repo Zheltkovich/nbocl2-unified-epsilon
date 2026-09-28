@@ -1,0 +1,30 @@
+{
+  "structure": "C:\\Users\\Andrei\\Notebooks\\Atomic structure of a MEMRISTOR\\generated_films_GPT_38\\ItoCl\\ItoCl_Nb_O_Cl1.0_I1.0.extxyz",
+  "alignn": {
+    "backend": "DGL (ALIGNN)",
+    "n_atoms": 240,
+    "n_edges_atom_graph": 3360,
+    "n_nodes_line_graph": 3360,
+    "n_edges_line_graph": 46440,
+    "cutoff_ang": 8.0,
+    "max_neighbors": 12,
+    "atom_feature_dim": 92,
+    "weights": "jv_optb88vdw_bandgap_alignn / jv_mbj_bandgap_alignn (Figshare, frozen)",
+    "output": "scalar Eg (eV)",
+    "training": "none \u2014 inference only"
+  },
+  "gnnopt": {
+    "backend": "PyTorch Geometric (GNNOpt)",
+    "n_atoms": 240,
+    "n_edges": 7080,
+    "n_edges_directed": 7080,
+    "n_edges_undirected": 3180,
+    "cutoff_ang": 6.0,
+    "node_features": "Z one-hot + mass/dipole/radius (Mendeleev)",
+    "edge_features": "edge_vec + periodic shift",
+    "weights": "models/gnnopt/model_eps1_240406.torch + eps2 (frozen)",
+    "output": "Tr(Re \u03b5(\u03c9)), Tr(Im \u03b5(\u03c9)) \u2014 251 pt, 0\u201350 eV",
+    "training": "none \u2014 inference only"
+  },
+  "dgl_bootstrap_note": "ml_dgl_bootstrap.py stubs GraphBolt on Windows so DGL imports; does not change graph topology or weights."
+}

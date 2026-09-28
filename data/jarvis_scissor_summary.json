@@ -1,0 +1,155 @@
+{
+  "calibration_mode": "JARVIS paired OptB88vdW + TB-mBJ (same cell, no Mortazavi HSE06 in fit)",
+  "n_calibration": 7,
+  "min_required": 3,
+  "mean_delta_mbj_minus_opt_eV": 0.3243,
+  "stdev_delta_eV": 0.195,
+  "widget_delta_hint_eV": 0.324,
+  "widget_n_hint": 7,
+  "eg_alignn_mbj_nboi2": 0.931839108467102,
+  "eg_supplementary_trend_eV": 1.256,
+  "eg_scissor_vs_mortazavi_validation_eV": 1.487,
+  "eg_scissor_vs_dawei_li_validation_eV": 1.845,
+  "mean_implied_HSE06_minus_mBJ_validation_eV": 0.555,
+  "validation_mortazavi_bulk_HSE06": {
+    "NbOI2": 1.6,
+    "NbOCl2": 1.72,
+    "NbOBr2": 1.69
+  },
+  "validation_dawei_li_bulk_HSE06": 1.76,
+  "dawei_scheme_III_note": "Mean JARVIS mBJ on NbI2O 1:1:2 (N=2 C2 bulk), not mean over NbIO2 1:2:1 \u2014 Dawei gives one HSE06, no JID pairs",
+  "dawei_jarvis_anchor_jid": "JVASP-26367+JVASP-29372",
+  "dawei_jarvis_anchor_jids": [
+    "JVASP-26367",
+    "JVASP-29372"
+  ],
+  "dawei_jarvis_anchor_mbj_mean_eV": 0.847,
+  "calibration_fit_rows": [
+    {
+      "jid": "JVASP-26367",
+      "formula": "NbI2O",
+      "spg": "C2",
+      "typ": "bulk",
+      "Eg_opt_JARVIS": 0.681,
+      "Eg_mbj_JARVIS": 0.846,
+      "delta_mbj_minus_opt": 0.165
+    },
+    {
+      "jid": "JVASP-29372",
+      "formula": "NbI2O",
+      "spg": "C2",
+      "typ": "bulk",
+      "Eg_opt_JARVIS": 0.681,
+      "Eg_mbj_JARVIS": 0.848,
+      "delta_mbj_minus_opt": 0.167
+    },
+    {
+      "jid": "JVASP-28028",
+      "formula": "NbIO2",
+      "spg": "P2_1/m",
+      "typ": "SingleLayer",
+      "Eg_opt_JARVIS": 0.873,
+      "Eg_mbj_JARVIS": 0.917,
+      "delta_mbj_minus_opt": 0.044
+    },
+    {
+      "jid": "JVASP-25591",
+      "formula": "NbIO2",
+      "spg": "Pnma",
+      "typ": "bulk",
+      "Eg_opt_JARVIS": 0.799,
+      "Eg_mbj_JARVIS": 1.302,
+      "delta_mbj_minus_opt": 0.503
+    },
+    {
+      "jid": "JVASP-29443",
+      "formula": "NbIO2",
+      "spg": "Pnma",
+      "typ": "bulk",
+      "Eg_opt_JARVIS": 0.798,
+      "Eg_mbj_JARVIS": 1.311,
+      "delta_mbj_minus_opt": 0.513
+    },
+    {
+      "jid": "JVASP-25875",
+      "formula": "NbCl3O",
+      "spg": "P-42_1m",
+      "typ": "bulk",
+      "Eg_opt_JARVIS": 2.664,
+      "Eg_mbj_JARVIS": 3.156,
+      "delta_mbj_minus_opt": 0.492
+    },
+    {
+      "jid": "JVASP-5392",
+      "formula": "NbCl3O",
+      "spg": "P4_2/mnm",
+      "typ": "bulk",
+      "Eg_opt_JARVIS": 2.308,
+      "Eg_mbj_JARVIS": 2.694,
+      "delta_mbj_minus_opt": 0.386
+    }
+  ],
+  "validation_rows": [
+    {
+      "compound": "NbOI2",
+      "jid": "JVASP-26367",
+      "formula_jarvis": "NbI2O",
+      "Mortazavi_HSE06_bulk": 1.6,
+      "JARVIS_mBJ": 0.846,
+      "implied_HSE06_minus_mBJ": 0.754,
+      "note": "Validation only \u2014 JARVIS cell may \u2260 Mortazavi HSE06 geometry"
+    },
+    {
+      "compound": "NbOI2",
+      "jid": "JVASP-29372",
+      "formula_jarvis": "NbI2O",
+      "Mortazavi_HSE06_bulk": 1.6,
+      "JARVIS_mBJ": 0.848,
+      "implied_HSE06_minus_mBJ": 0.752,
+      "note": "Validation only \u2014 JARVIS cell may \u2260 Mortazavi HSE06 geometry"
+    },
+    {
+      "compound": "NbOI2",
+      "jid": "JVASP-28028",
+      "formula_jarvis": "NbIO2",
+      "Mortazavi_HSE06_bulk": 1.6,
+      "JARVIS_mBJ": 0.917,
+      "implied_HSE06_minus_mBJ": 0.683,
+      "note": "Validation only \u2014 JARVIS cell may \u2260 Mortazavi HSE06 geometry"
+    },
+    {
+      "compound": "NbOI2",
+      "jid": "JVASP-25591",
+      "formula_jarvis": "NbIO2",
+      "Mortazavi_HSE06_bulk": 1.6,
+      "JARVIS_mBJ": 1.302,
+      "implied_HSE06_minus_mBJ": 0.298,
+      "note": "Validation only \u2014 JARVIS cell may \u2260 Mortazavi HSE06 geometry"
+    },
+    {
+      "compound": "NbOI2",
+      "jid": "JVASP-29443",
+      "formula_jarvis": "NbIO2",
+      "Mortazavi_HSE06_bulk": 1.6,
+      "JARVIS_mBJ": 1.311,
+      "implied_HSE06_minus_mBJ": 0.289,
+      "note": "Validation only \u2014 JARVIS cell may \u2260 Mortazavi HSE06 geometry"
+    }
+  ],
+  "manuscript_export": {
+    "MANUSCRIPT_PICKUP": true,
+    "supplementary_table_id": "Supplementary Table S_Eg_JARVIS_fit",
+    "use_key": "calibration_fit_rows",
+    "not_key": "validation_rows",
+    "csv_path": "C:\\Users\\Andrei\\Notebooks\\Atomic structure of a MEMRISTOR\\generated_films_GPT_38\\ItoCl\\dielectric_compare\\jarvis_scissor_calibration.csv",
+    "note_ru": "\u0412 \u0441\u0442\u0430\u0442\u044c\u044e \u2014 \u0432\u0441\u0435 N \u043f\u0430\u0440 \u0444\u0430\u0437\u044b A \u0438\u0437 calibration_fit_rows (\u0438\u043b\u0438 CSV). validation_rows \u2014 \u0442\u043e\u043b\u044c\u043a\u043e \u0444\u0430\u0437\u0430 C (\u043f\u0440\u0438\u043c\u0435\u0440 vs Mortazavi HSE06).",
+    "note_en": "Paper/Supplementary: export all N Phase-A rows from calibration_fit_rows (or CSV). validation_rows is Phase-C sample only (Mortazavi HSE06 check)."
+  },
+  "nb_br_in_jarvis": {
+    "NbOI2_paired_opt_mbj": true,
+    "NbOCl2_paired": false,
+    "NbOBr2_paired": false,
+    "note": "NbOCl2/NbOBr2 bulk often lack mBJ in JARVIS \u2014 expand to Ta/V oxyhalides for N\u22653"
+  },
+  "paper_goal_ru": "\u0426\u0435\u043b\u044c \u0441\u0442\u0430\u0442\u044c\u0438: \u0434\u0435\u0448\u0451\u0432\u044b\u0439 ML-\u043f\u0430\u0439\u043f\u043b\u0430\u0439\u043d (ALIGNN/GNNOpt/MACEField) vs \u043d\u0435\u0434\u0435\u043b\u0438 VASP HSE06; Eg_scissor \u2014 Supplementary-\u0442\u0440\u0435\u043d\u0434 \u043f\u043e\u0441\u043b\u0435 JARVIS-\u043a\u0430\u043b\u0438\u0431\u0440\u043e\u0432\u043a\u0438, \u043d\u0435 \u0437\u0430\u043c\u0435\u043d\u0430 HSE06 \u0432 \u043e\u0441\u043d\u043e\u0432\u043d\u043e\u043c \u0442\u0435\u043a\u0441\u0442\u0435."
+}

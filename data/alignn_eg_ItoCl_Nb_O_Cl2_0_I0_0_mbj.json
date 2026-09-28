@@ -1,0 +1,12 @@
+{
+  "structure": "C:\\Users\\Andrei\\Notebooks\\Atomic structure of a MEMRISTOR\\generated_films_GPT_38\\ItoCl\\ItoCl_Nb_O_Cl2.0_I0.0.extxyz",
+  "n_atoms": 240,
+  "model": "jv_mbj_bandgap_alignn",
+  "model_key": "mbj",
+  "method": "ALIGNN (JARVIS pretrained)",
+  "theory_level": "TB-mBJ meta-GGA (JARVIS-DFT labels \u2014 not HSE06)",
+  "Eg_eV_ML": 2.5927627086639404,
+  "wall_s": 1.6449413999798708,
+  "reference_HSE06_docx_eV": 1.76,
+  "note": "Pure ML inference on geometry. Gap vs HSE06 ~1.76 eV = different XC in training, not a literature plug-in."
+}

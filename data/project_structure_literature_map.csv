@@ -1,0 +1,9 @@
+Ключ плёнки,Файл,Прокси для,Ближайшая литература,Качество сопоставления,Слои Mortazavi (ориентир)
+cl2_film,ItoCl_Nb_O_Cl2.0_I0.0.extxyz,NbOCl2-like thick film (≠ Mortazavi 1L),Mortazavi NbOCl₂ 1L/bulk,Слабая–средняя — Cl-endmember плёнка vs Table 1,"1L,bulk"
+mixed_film,ItoCl_Nb_O_Cl1.0_I1.0.extxyz,alloy proxy,Нет прямого аналога в Mortazavi (alloy Cl/I); интерполяция 1L–2L грубо,Слабая — смешанная стехиометрия ItoCl,"1L,2L"
+i2_film,ItoCl_Nb_O_Cl0.0_I2.0.extxyz,NbOI2-like thick film (≠ Mortazavi 1L/bulk),Mortazavi NbOI₂ 2L–bulk (HSE06+RPA); APL 2025 nanoflake (эксп.),Средняя — thick periodic ItoCl ≠ freestanding 1L; химия I-rich NbOI₂-like,"2L,bulk"
+nb_oi2_gpt36,CltoI_NbOI2_relaxed.extxyz,"closer NbOI₂ stoichiometry, still not freestanding 1L","Mortazavi NbOI₂ 1L/bulk (стехиометрия ближе, но не freestanding slab)","Средняя — relaxed NbOI₂ ячейка GPT_36, всё ещё periodic stack","1L,bulk"
+nboi2_bulk,nboi2.xyz,same cell as VASP LOPTICS CSV / ALIGNN-GNNOpt bulk runs,—,—,—
+nbocl2_bulk,nbocl2.xyz,Mortazavi Table 1 bulk Cl; no HSE06 LOPTICS CSV in repo,—,—,—
+nbobr2_bulk,nbobr2.xyz,Mortazavi Table 1 bulk Br; isotypic C2 + JARVIS JVASP-12017 anchor,—,—,—
+nboi2_literature,nboi2_literature.vasp,Dawei Li Fig. S9 HSE06 cell — compare ML vs docx nboi2.xyz,—,—,—

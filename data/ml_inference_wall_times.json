@@ -1,0 +1,229 @@
+{
+  "version": 1,
+  "records": {
+    "mace_alpha|mixed_film": {
+      "step": "mace_alpha",
+      "structure_key": "mixed_film",
+      "variant": null,
+      "wall_s": 7.466450299951248,
+      "recorded_at": "2026-08-20T16:29:51",
+      "structure_path": "C:\\Users\\Andrei\\Notebooks\\Atomic structure of a MEMRISTOR\\generated_films_GPT_38\\ItoCl\\ItoCl_Nb_O_Cl1.0_I1.0.extxyz",
+      "n_atoms": 240,
+      "device": "cuda",
+      "head": "mp-dielectric"
+    },
+    "alignn_eg|nboi2_bulk|optb88": {
+      "step": "alignn_eg",
+      "structure_key": "nboi2_bulk",
+      "variant": "optb88",
+      "wall_s": 1.04793979995884,
+      "recorded_at": "2026-08-23T00:25:04",
+      "structure_path": "C:\\Users\\Andrei\\Notebooks\\Atomic structure of a MEMRISTOR\\nboi2.xyz",
+      "n_atoms": 16,
+      "source": "alignn_eg_nboi2_bulk.json"
+    },
+    "alignn_eg|nboi2_bulk|mbj": {
+      "step": "alignn_eg",
+      "structure_key": "nboi2_bulk",
+      "variant": "mbj",
+      "wall_s": 0.92168169998331,
+      "recorded_at": "2026-08-23T00:25:04",
+      "structure_path": "C:\\Users\\Andrei\\Notebooks\\Atomic structure of a MEMRISTOR\\nboi2.xyz",
+      "n_atoms": 16,
+      "source": "alignn_eg_nboi2_mbj.json"
+    },
+    "alignn_eg|cl2_film|optb88": {
+      "step": "alignn_eg",
+      "structure_key": "cl2_film",
+      "variant": "optb88",
+      "wall_s": 1.7807493000291288,
+      "recorded_at": "2026-08-23T00:25:04",
+      "structure_path": "C:\\Users\\Andrei\\Notebooks\\Atomic structure of a MEMRISTOR\\generated_films_GPT_38\\ItoCl\\ItoCl_Nb_O_Cl2.0_I0.0.extxyz",
+      "n_atoms": 240,
+      "source": "alignn_eg_ItoCl_Nb_O_Cl2_0_I0_0.json"
+    },
+    "alignn_eg|cl2_film|mbj": {
+      "step": "alignn_eg",
+      "structure_key": "cl2_film",
+      "variant": "mbj",
+      "wall_s": 1.6449413999798708,
+      "recorded_at": "2026-08-23T00:25:04",
+      "structure_path": "C:\\Users\\Andrei\\Notebooks\\Atomic structure of a MEMRISTOR\\generated_films_GPT_38\\ItoCl\\ItoCl_Nb_O_Cl2.0_I0.0.extxyz",
+      "n_atoms": 240,
+      "source": "alignn_eg_ItoCl_Nb_O_Cl2_0_I0_0_mbj.json"
+    },
+    "gnnopt_spectrum|cl2_film": {
+      "step": "gnnopt_spectrum",
+      "structure_key": "cl2_film",
+      "variant": null,
+      "wall_s": 93.59169060003478,
+      "recorded_at": "2026-08-23T00:25:04",
+      "structure_path": "C:\\Users\\Andrei\\Notebooks\\Atomic structure of a MEMRISTOR\\generated_films_GPT_38\\ItoCl\\ItoCl_Nb_O_Cl2.0_I0.0.extxyz",
+      "n_atoms": 240,
+      "source": "gnnopt_spectrum_ItoCl_Nb_O_Cl2_0_I0_0.json"
+    },
+    "gnnopt_spectrum|nboi2_bulk": {
+      "step": "gnnopt_spectrum",
+      "structure_key": "nboi2_bulk",
+      "variant": null,
+      "wall_s": 100.5045672999695,
+      "recorded_at": "2026-08-23T00:25:04",
+      "structure_path": "C:\\Users\\Andrei\\Notebooks\\Atomic structure of a MEMRISTOR\\nboi2.xyz",
+      "n_atoms": 16,
+      "source": "gnnopt_spectrum_nboi2_bulk.json"
+    },
+    "mace_alpha|i2_film": {
+      "step": "mace_alpha",
+      "structure_key": "i2_film",
+      "variant": null,
+      "wall_s": 5.771401099977084,
+      "recorded_at": "2026-08-23T00:25:04",
+      "structure_path": "C:\\Users\\Andrei\\Notebooks\\Atomic structure of a MEMRISTOR\\generated_films_GPT_38\\ItoCl\\ItoCl_Nb_O_Cl0.0_I2.0.extxyz",
+      "n_atoms": 240,
+      "device": "cuda",
+      "source": "macefield_last_run.csv"
+    },
+    "mace_alpha|cl2_film": {
+      "step": "mace_alpha",
+      "structure_key": "cl2_film",
+      "variant": null,
+      "wall_s": 11.977769099990837,
+      "recorded_at": "2026-08-20T16:29:51",
+      "structure_path": "C:\\Users\\Andrei\\Notebooks\\Atomic structure of a MEMRISTOR\\generated_films_GPT_38\\ItoCl\\ItoCl_Nb_O_Cl2.0_I0.0.extxyz",
+      "n_atoms": 240,
+      "device": "cuda",
+      "head": "mp-dielectric"
+    },
+    "alignn_eg|mixed_film|optb88": {
+      "step": "alignn_eg",
+      "structure_key": "mixed_film",
+      "variant": "optb88",
+      "wall_s": 4.645641200011596,
+      "recorded_at": "2026-08-23T00:25:04",
+      "structure_path": "C:\\Users\\Andrei\\Notebooks\\Atomic structure of a MEMRISTOR\\generated_films_GPT_38\\ItoCl\\ItoCl_Nb_O_Cl1.0_I1.0.extxyz",
+      "n_atoms": 240,
+      "source": "alignn_eg_ItoCl_Nb_O_Cl1_0_I1_0.json"
+    },
+    "alignn_eg|mixed_film|mbj": {
+      "step": "alignn_eg",
+      "structure_key": "mixed_film",
+      "variant": "mbj",
+      "wall_s": 1.352136600005906,
+      "recorded_at": "2026-08-23T00:25:04",
+      "structure_path": "C:\\Users\\Andrei\\Notebooks\\Atomic structure of a MEMRISTOR\\generated_films_GPT_38\\ItoCl\\ItoCl_Nb_O_Cl1.0_I1.0.extxyz",
+      "n_atoms": 240,
+      "source": "alignn_eg_ItoCl_Nb_O_Cl1_0_I1_0_mbj.json"
+    },
+    "gnnopt_spectrum|mixed_film": {
+      "step": "gnnopt_spectrum",
+      "structure_key": "mixed_film",
+      "variant": null,
+      "wall_s": 109.79106339998543,
+      "recorded_at": "2026-08-23T00:25:04",
+      "structure_path": "C:\\Users\\Andrei\\Notebooks\\Atomic structure of a MEMRISTOR\\generated_films_GPT_38\\ItoCl\\ItoCl_Nb_O_Cl1.0_I1.0.extxyz",
+      "n_atoms": 240,
+      "source": "gnnopt_spectrum_ItoCl_Nb_O_Cl1_0_I1_0.json"
+    },
+    "alignn_eg|i2_film|optb88": {
+      "step": "alignn_eg",
+      "structure_key": "i2_film",
+      "variant": "optb88",
+      "wall_s": 6.637844400014728,
+      "recorded_at": "2026-08-23T00:25:04",
+      "structure_path": "C:\\Users\\Andrei\\Notebooks\\Atomic structure of a MEMRISTOR\\generated_films_GPT_38\\ItoCl\\ItoCl_Nb_O_Cl0.0_I2.0.extxyz",
+      "n_atoms": 240,
+      "source": "alignn_eg_ItoCl_Nb_O_Cl0_0_I2_0.json"
+    },
+    "alignn_eg|i2_film|mbj": {
+      "step": "alignn_eg",
+      "structure_key": "i2_film",
+      "variant": "mbj",
+      "wall_s": 1.6088696999941021,
+      "recorded_at": "2026-08-23T00:25:04",
+      "structure_path": "C:\\Users\\Andrei\\Notebooks\\Atomic structure of a MEMRISTOR\\generated_films_GPT_38\\ItoCl\\ItoCl_Nb_O_Cl0.0_I2.0.extxyz",
+      "n_atoms": 240,
+      "source": "alignn_eg_ItoCl_Nb_O_Cl0_0_I2_0_mbj.json"
+    },
+    "gnnopt_spectrum|i2_film": {
+      "step": "gnnopt_spectrum",
+      "structure_key": "i2_film",
+      "variant": null,
+      "wall_s": 82.82120130001567,
+      "recorded_at": "2026-08-23T00:25:04",
+      "structure_path": "C:\\Users\\Andrei\\Notebooks\\Atomic structure of a MEMRISTOR\\generated_films_GPT_38\\ItoCl\\ItoCl_Nb_O_Cl0.0_I2.0.extxyz",
+      "n_atoms": 240,
+      "source": "gnnopt_spectrum_ItoCl_Nb_O_Cl0_0_I2_0.json"
+    },
+    "mace_alpha|nboi2_bulk": {
+      "step": "mace_alpha",
+      "structure_key": "nboi2_bulk",
+      "variant": null,
+      "wall_s": 7.399710300029255,
+      "recorded_at": "2026-08-19T23:17:18",
+      "structure_path": "C:\\Users\\Andrei\\Notebooks\\Atomic structure of a MEMRISTOR\\nboi2.xyz",
+      "n_atoms": 16,
+      "device": "cuda",
+      "source": "macefield_last_run.csv"
+    },
+    "alignn_eg|nbocl2_bulk|optb88": {
+      "step": "alignn_eg",
+      "structure_key": "nbocl2_bulk",
+      "variant": "optb88",
+      "wall_s": 13.765618999954313,
+      "recorded_at": "2026-08-23T00:25:04",
+      "structure_path": "C:\\Users\\Andrei\\Notebooks\\Atomic structure of a MEMRISTOR\\nbocl2.xyz",
+      "n_atoms": 16,
+      "source": "alignn_eg_nbocl2.json"
+    },
+    "alignn_eg|nbocl2_bulk|mbj": {
+      "step": "alignn_eg",
+      "structure_key": "nbocl2_bulk",
+      "variant": "mbj",
+      "wall_s": 1.3264022000366822,
+      "recorded_at": "2026-08-23T00:25:04",
+      "structure_path": "C:\\Users\\Andrei\\Notebooks\\Atomic structure of a MEMRISTOR\\nbocl2.xyz",
+      "n_atoms": 16,
+      "source": "alignn_eg_nbocl2_mbj.json"
+    },
+    "gnnopt_spectrum|nbocl2_bulk": {
+      "step": "gnnopt_spectrum",
+      "structure_key": "nbocl2_bulk",
+      "variant": null,
+      "wall_s": 119.03868070000317,
+      "recorded_at": "2026-08-23T00:25:04",
+      "structure_path": "C:\\Users\\Andrei\\Notebooks\\Atomic structure of a MEMRISTOR\\nbocl2.xyz",
+      "n_atoms": 16,
+      "source": "gnnopt_spectrum_nbocl2.json"
+    },
+    "alignn_eg|nbobr2_bulk|optb88": {
+      "step": "alignn_eg",
+      "structure_key": "nbobr2_bulk",
+      "variant": "optb88",
+      "wall_s": 1.4400047999806702,
+      "recorded_at": "2026-08-23T00:25:04",
+      "structure_path": "C:\\Users\\Andrei\\Notebooks\\Atomic structure of a MEMRISTOR\\nbobr2.xyz",
+      "n_atoms": 16,
+      "source": "alignn_eg_nbobr2.json"
+    },
+    "alignn_eg|nbobr2_bulk|mbj": {
+      "step": "alignn_eg",
+      "structure_key": "nbobr2_bulk",
+      "variant": "mbj",
+      "wall_s": 1.3117589999455959,
+      "recorded_at": "2026-08-23T00:25:04",
+      "structure_path": "C:\\Users\\Andrei\\Notebooks\\Atomic structure of a MEMRISTOR\\nbobr2.xyz",
+      "n_atoms": 16,
+      "source": "alignn_eg_nbobr2_mbj.json"
+    },
+    "gnnopt_spectrum|nbobr2_bulk": {
+      "step": "gnnopt_spectrum",
+      "structure_key": "nbobr2_bulk",
+      "variant": null,
+      "wall_s": 119.09311679995153,
+      "recorded_at": "2026-08-23T00:25:04",
+      "structure_path": "C:\\Users\\Andrei\\Notebooks\\Atomic structure of a MEMRISTOR\\nbobr2.xyz",
+      "n_atoms": 16,
+      "source": "gnnopt_spectrum_nbobr2.json"
+    }
+  }
+}
