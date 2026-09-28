@@ -25,3 +25,20 @@ calibration to HSE06+LOPTICS, and the memristor/LED device context".
 ## Key metrics (reference iodine film, Unified mode)
 α ≈ (4.73, 6.40, 8.15) Å³ → Unified ε ≈ (4.56, 6.17, 7.86), Tr(ε) = 18.59;
 cos(f) ≈ 0.939 vs Mortazavi HSE06+RPA and ≈ 0.945 vs the authors' HSE06+LOPTICS CSV.
+
+
+## Supplementary Information mapping
+The manuscript's Supplementary tables map to this deposit as follows:
+- **Supplementary Table S1** (JARVIS band-gap fit, N = 7 pairs): `data/jarvis_scissor_calibration.csv`, `data/jarvis_scissor_summary.json`, `data/alignn_eg_*.json`;
+- **Supplementary Table S2** (JARVIS Tr(ε) fit): `data/jarvis_eps_calibration.csv`, `data/jarvis_eps_scissor_summary.json`;
+- **Supplementary Table S3** (Phase C validation sample vs Mortazavi): `data/mortazavi_mace_epsilon_fit_detail.csv`, `data/mortazavi_mace_epsilon_fit_summary.csv`.
+
+## Copyright & citation
+© 2026 the authors (see LICENSE, CC BY 4.0). If you use this deposit,
+please cite the manuscript and this repository:
+Zheltkovich A. et al. *Unified static ε from MACEField polarizability on NbOX2 film
+structures* — data & code deposit, https://github.com/Zheltkovich/nbocl2-unified-epsilon.
+
+## Traffic & access
+The repository is public. Visit statistics (views/clones, without personal identities)
+are visible to the repository owner via GitHub Insights → Traffic.
